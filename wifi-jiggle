@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo list-wireless-networks ; sudo ifconfig wlan0 down && sudo ifconfig wlan0 up ; list-wireless-networks
+
