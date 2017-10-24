@@ -2,6 +2,9 @@
 #include <time.h>
 #include <iwlib.h>
 
+// Work by Gabe Rosenhouse:
+// https://gist.github.com/rosenhouse/685e6c4c7f3b1332aa0f
+
 int main(void) {
   wireless_scan_head head;
   wireless_scan *result;
